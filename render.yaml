@@ -1,0 +1,11 @@
+# 🔥🦋 불나방 - Render.com 배포 설정
+
+services:
+  - type: web
+    name: bulnabang
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/health
