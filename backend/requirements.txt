@@ -1,0 +1,22 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# HTTP Client (for API fetching)
+httpx==0.26.0
+requests==2.31.0
+
+# Database (optional, for later)
+# sqlalchemy==2.0.25
+
+# ML/Prediction (for later)
+# scikit-learn==1.4.0
+# torch==2.1.2
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3

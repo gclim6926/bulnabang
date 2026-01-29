@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 데이터 (민감할 수 있음)
+backend/data/inputs/*.csv
+backend/data/outputs/*.csv
+!backend/data/inputs/.gitkeep
+!backend/data/outputs/.gitkeep
+
+# 로그
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
